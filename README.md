@@ -17,12 +17,6 @@ Implemented **Google's MLOps maturity framework** across three progressive level
 
 ## 🛠️ Tech Stack
 
-```mermaid
-graph TB
-    AWS[SageMaker Studio<br/>CloudFormation<br/>Lambda<br/>Step Functions]
-    ML[scikit-learn<br/>Pandas<br/>Streamlit]
-    MLOps[MLflow<br/>Sagemaker Model Registry<br/>CloudWatch]
-    CI[GitHub Actions<br/>CodePipeline]
 
 🔹 Training: SageMaker Processing + Training Jobs
 🔹 Deployment: SageMaker Endpoints + A/B Testing
